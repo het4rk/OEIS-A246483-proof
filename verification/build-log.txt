@@ -1,0 +1,1062 @@
+⚠ [9020/9026] Built A246479Rows.Basic (32s)
+warning: A246479Rows/Basic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [9021/9026] Built A246479Rows.Types (8.0s)
+warning: A246479Rows/Types.lean:118:29: This simp argument is unused:
+  hx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Sxx, hx']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:122:21: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha, h2, Ne.symm h1, hx, hx']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:122:41: This simp argument is unused:
+  hx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha, h1, h2, Ne.symm h1, hx']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:125:17: This simp argument is unused:
+  ha.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.2, Ne.symm ha.1, ham, hx, hx']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:125:48: This simp argument is unused:
+  hx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2, Ne.symm ha.1, ham, hx']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:133:33: This simp argument is unused:
+  hy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Sxm, hx, hy', h0, h0', hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:133:42: This simp argument is unused:
+  h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Sxm, hx, hy, hy', h0', hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:133:46: This simp argument is unused:
+  h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Sxm, hx, hy, hy', h0, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:140:17: This simp argument is unused:
+  ha.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.2, Ne.symm ha.1, ham, hx, hxy, h0, h0', h1, Ne.symm h1, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:140:43: This simp argument is unused:
+  ham
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2, Ne.symm ha.1, hx, hxy, h0, h0', h1, Ne.symm h1, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:140:57: This simp argument is unused:
+  h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2, Ne.symm ha.1, ham, hx, hxy, h0', h1, Ne.symm h1, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:140:61: This simp argument is unused:
+  h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2, Ne.symm ha.1, ham, hx, hxy, h0, h1, Ne.symm h1, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:147:51: This simp argument is unused:
+  h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Sym, hx, hx', hy, h0, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:147:56: This simp argument is unused:
+  Ne.symm hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Sym, hx, hx', hy, h0, hxy, h0']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:154:17: This simp argument is unused:
+  ha.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.2, Ne.symm ha.1, ham, hx, hxy, h0, h0', h1, hy, Ne.symm h1, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:154:43: This simp argument is unused:
+  ham
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2, Ne.symm ha.1, hx, hxy, h0, h0', h1, hy, Ne.symm h1, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:154:61: This simp argument is unused:
+  h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2, Ne.symm ha.1, ham, hx, hxy, h0, h1, hy, Ne.symm h1, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:154:86: This simp argument is unused:
+  Ne.symm hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2, Ne.symm ha.1, ham, hx, hxy, h0, h0', h1, hy, Ne.symm h1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:165:72: This simp argument is unused:
+  Ne.symm h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Snm, hx, hy, hx', hy', h0, hxy, h0', Ne.symm hxy, Ne.symm h0']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:166:6: This simp argument is unused:
+  Ne.symm h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, Snm, hx, hy, hx', hy', h0, hxy, h0', Ne.symm hxy, Ne.symm h0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:172:36: This simp argument is unused:
+  h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha, hx, hy, hxy, h0, hax, hay, hax', hay', Ne.symm hax, Ne.symm hay]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:172:41: This simp argument is unused:
+  hax
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha, hx, hy, hxy, h0, h0', hay, hax', hay', Ne.symm hax, Ne.symm hay]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:172:46: This simp argument is unused:
+  hay
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha, hx, hy, hxy, h0, h0', hax, hax', hay', Ne.symm hax, Ne.symm hay]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:175:15: This simp argument is unused:
+  ha.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.2.1, ha.2.2.1, ha.2.2.2, Ne.symm ha.1, Ne.symm ha.2.1, ham, hx, hy, hxy, h0, h0']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:175:21: This simp argument is unused:
+  ha.2.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2.2.1, ha.2.2.2, Ne.symm ha.1, Ne.symm ha.2.1, ham, hx, hy, hxy, h0, h0']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:176:15: This simp argument is unused:
+  h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, ha.1, ha.2.1, ha.2.2.1, ha.2.2.2, Ne.symm ha.1, Ne.symm ha.2.1, ham, hx, hy, hxy, h0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Types.lean:118:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: A246479Rows/Types.lean:133:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: A246479Rows/Types.lean:147:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: A246479Rows/Types.lean:166:19: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9022/9026] Built A246479Rows.Step (6.2s)
+warning: A246479Rows/Step.lean:36:26: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, h1, h3]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:30: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:34: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:47: This simp argument is unused:
+  h2'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h3', r1, r2, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:52: This simp argument is unused:
+  h3'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', r1, r2, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:57: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r2, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:61: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:69: This simp argument is unused:
+  hx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hy, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:73: This simp argument is unused:
+  hy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hx', hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:77: This simp argument is unused:
+  hx'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hcx, hcy, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:53:87: This simp argument is unused:
+  hcy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hcx, Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:54:8: This simp argument is unused:
+  Ne.symm hcy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:55:30: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:55:34: This simp argument is unused:
+  h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:55:52: This simp argument is unused:
+  h3'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', r1, r2, hc, hx, hy, hx', hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:55:57: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r2, hc, hx, hy, hx', hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:55:61: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, hc, hx, hy, hx', hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:55:77: This simp argument is unused:
+  hx'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:55:82: This simp argument is unused:
+  hy'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:56:39: This simp argument is unused:
+  Ne.symm hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hx', hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:38: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h1', h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:42: This simp argument is unused:
+  h1'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:47: This simp argument is unused:
+  h2'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h3', r1, r2, hc, hc', hx, hy, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:52: This simp argument is unused:
+  h3'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', r1, r2, hc, hc', hx, hy, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:61: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, hc, hc', hx, hy, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:65: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc', hx, hy, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:69: This simp argument is unused:
+  hc'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:78: This simp argument is unused:
+  hy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy', hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:65:82: This simp argument is unused:
+  hy'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hcx, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:66:8: This simp argument is unused:
+  hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, Ne.symm hcx,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:66:13: This simp argument is unused:
+  Ne.symm hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, Ne.symm hcx, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:38: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h1', h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:42: This simp argument is unused:
+  h1'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:47: This simp argument is unused:
+  h2'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h3', r1, r2, hc, hc', hx, hy, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:52: This simp argument is unused:
+  h3'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', r1, r2, hc, hc', hx, hy, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:61: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, hc, hc', hx, hy, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:69: This simp argument is unused:
+  hc'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hy, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:78: This simp argument is unused:
+  hy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy', hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:67:82: This simp argument is unused:
+  hy'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:68:8: This simp argument is unused:
+  Ne.symm hcx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:68:21: This simp argument is unused:
+  Ne.symm hcy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, hcy, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:38: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:42: This simp argument is unused:
+  h1'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h2', h3', r1, r2, hc, hc', hx, hx', hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:47: This simp argument is unused:
+  h2'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h3', r1, r2, hc, hc', hx, hx', hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:52: This simp argument is unused:
+  h3'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', r1, r2, hc, hc', hx, hx', hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:65: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc', hx, hx', hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:69: This simp argument is unused:
+  hc'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hx', hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:74: This simp argument is unused:
+  hx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx', hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:78: This simp argument is unused:
+  hx'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:75:92: This simp argument is unused:
+  Ne.symm hcy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:76:8: This simp argument is unused:
+  hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcy, Ne.symm hcy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:76:13: This simp argument is unused:
+  Ne.symm hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcy, Ne.symm hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:77:42: This simp argument is unused:
+  h1'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h2', h3', r1, r2, hc, hc', hx, hx', hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:77:47: This simp argument is unused:
+  h2'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h3', r1, r2, hc, hc', hx, hx', hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:77:52: This simp argument is unused:
+  h3'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', r1, r2, hc, hc', hx, hx', hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:77:57: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r2, hc, hc', hx, hx', hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:77:69: This simp argument is unused:
+  hc'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hx, hx', hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:77:78: This simp argument is unused:
+  hx'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:78:8: This simp argument is unused:
+  Ne.symm hcx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcx, hcy, Ne.symm hcy, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:78:21: This simp argument is unused:
+  Ne.symm hcy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcx, hcy, Ne.symm hcx, hxy,
+    Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:78:39: This simp argument is unused:
+  Ne.symm hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcx, hcy, Ne.symm hcx,
+    Ne.symm hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:82:43: This simp argument is unused:
+  h1'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h2', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy, Ne.symm hcx,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:82:48: This simp argument is unused:
+  h2'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy, Ne.symm hcx,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:82:53: This simp argument is unused:
+  h3'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy, Ne.symm hcx,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:82:58: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy, Ne.symm hcx,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:82:62: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy, Ne.symm hcx,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:82:79: This simp argument is unused:
+  hx'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hy, hy', hcx, hcy, hxy, Ne.symm hcx,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:82:88: This simp argument is unused:
+  hy'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hcx, hcy, hxy, Ne.symm hcx,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:83:23: This simp argument is unused:
+  Ne.symm hcx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy,
+    Ne.symm hcy, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:83:36: This simp argument is unused:
+  Ne.symm hcy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy,
+    Ne.symm hcx, Ne.symm hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:83:49: This simp argument is unused:
+  Ne.symm hxy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy,
+    Ne.symm hcx, Ne.symm hcy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:84:31: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h2, h3, h1', h2', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:84:43: This simp argument is unused:
+  h1'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h2', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:84:48: This simp argument is unused:
+  h2'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h3', r1, r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:84:58: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r2, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:84:62: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [typ, pairv, step, h1, h2, h3, h1', h2', h3', r1, hc, hc', hx, hx', hy, hy', hcx, hcy, hxy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:86:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: A246479Rows/Step.lean:87:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: A246479Rows/Step.lean:83:63: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Step.lean:85:24: Unused tactic linter: `done` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Step.lean:86:6: Unused tactic linter: `(simp_all; done)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Step.lean:87:6: Unused tactic linter: `(simp only [hcx, hcy, hxy] at *; simp_all)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Step.lean:178:19: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pairv, h2, Ne.symm h2, hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:184:23: This simp argument is unused:
+  hx
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pairv, Rx, hx']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:191:19: This simp argument is unused:
+  ha.1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pairv, ha.2, Ne.symm ha.1, ham, hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Step.lean:184:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9023/9026] Built A246479Rows.Eps (5.4s)
+⚠ [9024/9026] Built A246479Rows.Rows (31s)
+warning: A246479Rows/Rows.lean:14:9: Variable name `k` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _k
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: A246479Rows/Rows.lean:131:75: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, We0, We1, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:136:75: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, We1, We2, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:141:75: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, We2, We3, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:146:75: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, We3, We4, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:151:75: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, We4, We5, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:156:75: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, We5, We6, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:161:75: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, We6, We7, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:164:67: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, We1, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:167:67: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, We2, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:170:67: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, We3, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:173:67: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, We4, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:176:67: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, We5, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:179:67: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, We6, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:182:67: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, We7, he, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:185:9: Variable name `k` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _k
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: A246479Rows/Rows.lean:302:61: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, Wo0, Wo1, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:307:61: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, Wo1, Wo2, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:312:61: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, Wo2, Wo3, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:317:61: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, Wo3, Wo4, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:322:61: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, Wo4, Wo5, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:327:61: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, Wo5, Wo6, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:332:61: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [step, Sxx, Snm, Sxm, Sym, Wo6, Wo7, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:335:53: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, Wo1, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:338:53: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, Wo2, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:341:53: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, Wo3, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:344:53: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, Wo4, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:347:53: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, Wo5, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:350:53: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, Wo6, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:353:53: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, Rm, Rx, Sxx, Snm, Sxm, Sym, Wo7, he, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: A246479Rows/Rows.lean:374:27: Unused tactic linter: `push_cast at h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Rows.lean:405:27: Unused tactic linter: `push_cast at h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Rows.lean:438:27: Unused tactic linter: `push_cast at h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Rows.lean:473:27: Unused tactic linter: `push_cast at h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Rows.lean:510:27: Unused tactic linter: `push_cast at h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Rows.lean:549:27: Unused tactic linter: `push_cast at h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: A246479Rows/Rows.lean:590:27: Unused tactic linter: `push_cast at h0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9025/9026] Built A246479Rows (7.0s)
+Build completed successfully (9026 jobs).
+EXIT 0
