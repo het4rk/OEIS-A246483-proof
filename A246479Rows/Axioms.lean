@@ -1,0 +1,30 @@
+import A246479Rows
+
+#print axioms A246479.row1_quasi
+#print axioms A246479.row1_even
+#print axioms A246479.row1_odd
+#print axioms A246479.row1_rec
+#print axioms A246479.row2_quasi
+#print axioms A246479.row2_even
+#print axioms A246479.row2_odd
+#print axioms A246479.row2_rec
+#print axioms A246479.row3_quasi
+#print axioms A246479.row3_even
+#print axioms A246479.row3_odd
+#print axioms A246479.row3_rec
+#print axioms A246479.row4_quasi
+#print axioms A246479.row4_even
+#print axioms A246479.row4_odd
+#print axioms A246479.row4_rec
+#print axioms A246479.row5_quasi
+#print axioms A246479.row5_even
+#print axioms A246479.row5_odd
+#print axioms A246479.row5_rec
+#print axioms A246479.row6_quasi
+#print axioms A246479.row6_even
+#print axioms A246479.row6_odd
+#print axioms A246479.row6_rec
+#print axioms A246479.row7_quasi
+#print axioms A246479.row7_even
+#print axioms A246479.row7_odd
+#print axioms A246479.row7_rec
